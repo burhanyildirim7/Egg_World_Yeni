@@ -95,6 +95,7 @@ public class UIController : MonoBehaviour
         //SetLevelText(LevelController.instance.totalLevelNo);
         SetGamePlayScoreText();
 
+        /*
         if (PlayerPrefs.GetInt("AcilisSenaryosu") < 1)
         {
             StartCoroutine(GameObject.FindGameObjectWithTag("OnBoardingController").GetComponent<OnBoardingController>().StartOnBoarding());
@@ -104,6 +105,7 @@ public class UIController : MonoBehaviour
         {
 
         }
+        */
 
     }
 

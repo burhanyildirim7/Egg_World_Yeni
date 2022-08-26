@@ -107,7 +107,7 @@ public class PlayerController : MonoBehaviour
 
             if (_velocityX == 0 || _velocityZ == 0)
             {
-                /*
+
                 if (PlayerPrefs.GetInt("Money") > 0 && _kalanBedel > 0)
                 {
                     _stayTimer += Time.deltaTime;
@@ -137,8 +137,9 @@ public class PlayerController : MonoBehaviour
                 {
 
                 }
-                */
 
+
+                /*
                 if ((gameObject.GetComponent<SirtCantasiScript>()._cantadakiMoneyObjeleri.Count * 10) > 0 && _kalanBedel > 0)
                 {
                     _stayTimer += Time.deltaTime;
@@ -162,6 +163,7 @@ public class PlayerController : MonoBehaviour
                 {
 
                 }
+                */
             }
             else
             {
